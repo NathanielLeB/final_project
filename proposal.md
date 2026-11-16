@@ -4,39 +4,39 @@
 <https://github.com/NathanielLeB/final_project>
 
 ## Description
-A color pallete generator. You choose how many colors you want, and the code will created and display all these colors, with their hex codes and other relevant info attached.
+An split complementary color palette generator. You will choose the "primary" color, and the program will display that color, and the two colors next to its complement on the color wheel.
 This would be very helpful for me, and artist who are wanting a challenge, or needing help coming up with a pallete for their peice.
-
-note: this is a color pallet, which means these aren't totally random, they'd relate to each other in some way.
 
 ## Features
 - Feature 1: color picker
-	- this will pick a color, or series of colors, depending on what number you choose (1-7 colors?), and pick colors from a range.
+	- The program will ask what color you want as primary. you have to choose a value for the R, G, B channels, from a range of 0-255.
 
 - Feature 2: visual display
-	- this will be the display that will show each of the colors chosen, and give some general info on your pallet, as well as looking nice.
+	- this will be the display that will show all 3 of your colors, and what thier rgb hex code is. 
+  - will be visually interesting, or at least organized in a way that isn't painful to understand.
 
-- Feature N: information on colors
-	- will show their info in he, and rgb. may also be able to copy info to keyboard?
+- Feature N: Text and Mouse input
+	- will allow for text and mouse input. This is how you will input your primary color, and how you will be able to copy the hex codes for each color on the palette.
 
 ## Challenges
-- how to pull out the specific number for a color value, and get info from that
-- how to pull specific random colors out from a range. (being able to get a specif range of blue colors, and the code knowing what that means.)
+- how to pull get the hex code from a color in python.
+- how to pull specific random colors out from a range. For the case of split-complementary, how to get not just the opposite of a color from a range, but the two adjacent colors from that opposite.
 - generally, i need to do a lot more research into random generators in python, and how to do it more effectivley.
-- how to get a copyiable link to appear in pygame? (idk if thats even possible.)
+- implementing system for mouse and text input (I did not learn how to do this for py.rain, I know its possible, just need to learn.)
+- implementing clipboard system. (i intend to do this using pygame.scrap.)
 
 ## Outcomes
 Ideal Outcome:
-- The ideal outcome is that it is able to generate a color pallete, and take into account things like wanting a tertiary colors, complementary colors, or even split complementary.
+- The ideal outcome is that it is able to generate a split-complementary color palette, and be able to not only display that info effectivley, but allow interaction with that display, to allow for text input for the primary color, but also the have things be clickible, and react appropriatley, ie. being able to click on a box that says "copy" and have that string be copied.
 
 Minimal Viable Outcome:
-- having the ability to at least make a color pallete, based on a numerical input, and display it in a way that is visually interesting and display the nessisary useable information like the hex code.
+- be able to input a primary color, and have the program display the split-complemantary palette on a screen in pygame. Should still be able to type text and click links.
 
 ## Milestones
 
 - Week 1
-  1. building framework, code comments at the least to build out code
-  2. try to get something down for the visual display or color generator
+  1. Work on Visual Display
+  2. Create system for clickable links and text input
 
 - Week 2
   1. color generator finalizations/ bug fixing
