@@ -30,7 +30,7 @@ Ideal Outcome:
 - The ideal outcome is that it is able to generate a split-complementary color palette, and be able to not only display that info effectivley, but allow interaction with that display, to allow for text input for the primary color, but also the have things be clickible, and react appropriatley, ie. being able to click on a box that says "copy" and have that string be copied.
 
 Minimal Viable Outcome:
-- be able to input a primary color, and have the program display the split-complemantary palette on a screen in pygame. Should still be able to type text and click links.
+- be able to input a primary color, and have the program display the split-complemantary palette on a screen in pygame. Should still be able to type text and click links. if hexideceimal display is deemed too difficult, don't implement display for hexidecimal, or copy system.
 
 ## Milestones
 
